@@ -29,7 +29,6 @@ static inline u64 hv_get_register(unsigned int reg)
 }
 
 #define hv_get_raw_timer() rdtsc_ordered()
-#define hv_get_vector() HYPERVISOR_CALLBACK_VECTOR
 
 void hyperv_vector_handler(struct pt_regs *regs);
 
