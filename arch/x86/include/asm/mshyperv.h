@@ -35,7 +35,6 @@ void hyperv_vector_handler(struct pt_regs *regs);
 extern int hyperv_init_cpuhp;
 
 extern void *hv_hypercall_pg;
-extern void  __percpu  **hyperv_pcpu_input_arg;
 
 static inline u64 hv_do_hypercall(u64 control, void *input, void *output)
 {
