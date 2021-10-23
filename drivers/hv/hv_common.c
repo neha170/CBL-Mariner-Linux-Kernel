@@ -17,7 +17,7 @@
 #include <linux/export.h>
 #include <linux/bitfield.h>
 #include <linux/cpumask.h>
-#include <linux/panic_notifier.h>
+#include <linux/kernel.h>
 #include <linux/ptrace.h>
 #include <linux/slab.h>
 #include <asm/hyperv-tlfs.h>
